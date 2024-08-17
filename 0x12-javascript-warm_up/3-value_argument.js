@@ -1,7 +1,7 @@
 #!/usr/bin/node
-let args = process.argv.slice('2');
+let args = process.argv.slice(2);
 let arg = args[0];
-if (arg != unidentified){
+if (arg != undefined){
   console.log(arg);
 } else {
   console.log('No Arguments');
